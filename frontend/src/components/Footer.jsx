@@ -1,5 +1,6 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import logo3 from '../assets/logo3.png';
+import Imprint from './Imprint';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -15,6 +16,7 @@ const Footer = () => {
               {''} {currentYear}, Demo Abschlussprojekt "Post Briefmarken &
               Philatelie Online Shop"
             </p>
+            <Imprint />
           </Col>
         </Row>
       </Container>
