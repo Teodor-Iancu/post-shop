@@ -54,8 +54,11 @@ npm install
 ```
 
 ##### Run
-Run frontend (:3000) & backend (:7000)
+Rename env.example to .env
+Run in development mode (:3000) & backend (:7000)
+
 ```
+cd ../backend
 npm run dev
 ```
 
