@@ -1,10 +1,5 @@
 Project Examen for WIFI Wien: Ausbildung zum/zur geprüften Full Stack Javascript Developer  (Education for certified Full Stack Javascript Developer, Course 18190012)
 
-*Teodor Iancu
-Reisnerstrasse 18/13
-1030, Vienna, Austria
-E-Mail: teodor@iancu.at*
-
 ### Project goals
 About 100 development hours invested in all the project phases which includes:
 - Project documentation
