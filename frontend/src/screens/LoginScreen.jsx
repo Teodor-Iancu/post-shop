@@ -75,7 +75,7 @@ const LoginScreen = () => {
 
       <Row className='py-3'>
         <Col>
-          New hier?{' '}
+          Noch kein Konto?{' '}
           <Link to={redirect ? `/register?redirect=${redirect}` : '/register'}>
             Jetzt registrieren
           </Link>
