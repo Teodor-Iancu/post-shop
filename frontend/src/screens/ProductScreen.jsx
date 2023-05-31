@@ -145,7 +145,9 @@ const ProductScreen = () => {
                     <Row>
                       <Col>Lagerstand:</Col>
                       <Col>
-                        {product.countInStock > 0 ? 'Auf Lager' : 'Ausverkauft'}
+                        {product.countInStock > 0
+                          ? `${product.countInStock} Stück lagernd`
+                          : 'Derzeit nicht verfügbar'}
                       </Col>
                     </Row>
                   </ListGroup.Item>
@@ -181,7 +183,9 @@ const ProductScreen = () => {
                       disabled={product.countInStock === 0}
                       onClick={addToCartHandler}
                     >
-                      In den Warenkorb
+                      {product.countInStock === 0
+                        ? 'Ausverkauft'
+                        : 'In den Warenkorb'}
                     </Button>
                   </ListGroup.Item>
                 </ListGroup>
