@@ -1,8 +1,8 @@
 import path from 'path';
 import express from 'express';
 import dotenv from 'dotenv';
-import cookieParser from 'cookie-parser';
 dotenv.config();
+import cookieParser from 'cookie-parser';
 import connectDB from './config/db.js';
 import productRoutes from './routes/productRoutes.js';
 import userRoutes from './routes/userRoutes.js';
@@ -25,8 +25,12 @@ app.use('/api/users', userRoutes);
 app.use('/api/orders', orderRoutes);
 app.use('/api/upload', uploadRoutes);
 
-app.get('/api/config/paypal', (req, res) => // to manage the paypal sandbox from the backend not from the frontend
-  res.send({ clientId: process.env.PAYPAL_CLIENT_ID })
+app.get(
+  '/api/config/paypal',
+  (
+    req,
+    res // to manage the paypal sandbox from the backend not from the frontend
+  ) => res.send({ clientId: process.env.PAYPAL_CLIENT_ID })
 );
 
 const __dirname = path.resolve();
