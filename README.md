@@ -12,7 +12,7 @@ Project Examen for WIFI Wien: Ausbildung zum/zur geprüften Full Stack Javascrip
 
 ### Graduation project
 
-I develop a fictitious online shop named „Post Stamps and philately“, build on top of the latest MERN Stack technology and Redux
+I develop a fictitious online shop named „Post Stamps and philately“, build on top of the latest MERN Stack Technology and Redux
 
 ![Post Stamps and philately!](./frontend/src/assets/PostOnlineShop.png 'Post Stamps and philately')
 
