@@ -110,8 +110,5 @@ npm run build
 
 ##### Sample User Logins
 
-admin@gmail.com (Admin)
-Password: 123123
-
 max@gmail.com (User)
 Password: 123123
